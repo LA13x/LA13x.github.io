@@ -4,11 +4,36 @@
   
     
     <entry>
+      <title>Machine Learning</title>
+      <link href="2021/03/05/ML/"/>
+      <url>2021/03/05/ML/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Unsupervised-Learning"><a href="#Unsupervised-Learning" class="headerlink" title="Unsupervised Learning"></a>Unsupervised Learning</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Machine Learning </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>计划</title>
       <link href="2021/03/05/plan1/"/>
       <url>2021/03/05/plan1/</url>
       
-        <content type="html"><![CDATA[<h2 id="计划2021-3-2021-5"><a href="#计划2021-3-2021-5" class="headerlink" title="计划2021.3 - 2021.5"></a>计划2021.3 - 2021.5</h2><blockquote><p>1.web学习<br>2.buu pwn题<br>3.机器学习<br>4.Linux 0.11内核<br>5.运维</p></blockquote>]]></content>
+        <content type="html"><![CDATA[<h2 id="计划2021-3-2021-5"><a href="#计划2021-3-2021-5" class="headerlink" title="计划2021.3 - 2021.5"></a>计划2021.3 - 2021.5</h2><blockquote><p>1.web学习<br>2.buu pwn题<br>3.机器学习入门<br>4.操作系统(李治军老师)<br>5.运维(hvv)</p></blockquote>]]></content>
       
       
       <categories>
