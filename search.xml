@@ -56,12 +56,18 @@
     
     
     <entry>
-      <title>article</title>
+      <title>New</title>
       <link href="2021/03/05/New/"/>
       <url>2021/03/05/New/</url>
       
         <content type="html"><![CDATA[<h3 id="新博客！"><a href="#新博客！" class="headerlink" title="新博客！"></a>新博客！</h3><p>原博客地址：<a href="https://cnblogs.com/lemon629/">https://cnblogs.com/lemon629/</a></p>]]></content>
       
+      
+      <categories>
+          
+          <category> 随笔 </category>
+          
+      </categories>
       
       
         <tags>
