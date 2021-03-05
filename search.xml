@@ -4,6 +4,27 @@
   
     
     <entry>
+      <title>密码学笔记</title>
+      <link href="2021/03/05/%E5%AF%86%E7%A0%81%E5%AD%A6%E7%AC%94%E8%AE%B0/"/>
+      <url>2021/03/05/%E5%AF%86%E7%A0%81%E5%AD%A6%E7%AC%94%E8%AE%B0/</url>
+      
+        <content type="html"><![CDATA[<h1 id="一-密码学概述"><a href="#一-密码学概述" class="headerlink" title="一.密码学概述"></a>一.密码学概述</h1><h2 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h2><p><strong>密码编码学</strong>和密码分析学</p><blockquote><p>Plaintext:明文，被隐蔽消息，M</p><p>Ciphertext:密文，C</p><p>Encryption:加密</p><p>Decryption:解密，加密的逆过程</p></blockquote><blockquote><p>Encryption algorithm: 加密算法，E()</p><p>Decryption algorithm: 解密算法，D()</p><p>Key: 密钥，控制加密和解密算法操作的数据处理，分别称作加密密钥和解密密钥，k</p></blockquote><ul><li>传统密码体制所用的加密密钥和解密密钥相同或<strong>实质上等同</strong>，从一个易于推出另一个：单钥或对称密码体制，无法实现不可否认性</li><li>加密密钥和解密密钥不相同，从一个难于推出另一个，双钥，或非对称密码体制</li></ul><p>密码体系是一个五元组(M C K E D)</p><p>密钥空间K，在单钥体制下K1 = K2 = K</p><p>加密变换$E_{k1}$</p><p>解密变换$D_{k2}$</p><p><strong>(M C K $E_{k1}$ $D_{k2}$)为保密通信系统</strong></p><p>密码分析者，选定变换函数h，对c进行变换，得到的明文是明文空间中的某个元素，</p><p>即$m’ = h(x)$</p><p>如果m’ = m，则分析成功</p><h3 id="保密系统基本要求"><a href="#保密系统基本要求" class="headerlink" title="保密系统基本要求"></a>保密系统基本要求</h3><ol><li>理论上不可破，即 $ p_r{m’=m}=0 $，当知道已知的明文密文时，要决定密钥或任意明文在计算上是不可行的</li><li>Kerchhoff原则，保密性不依赖于加密体制或算法的保密，而依赖于密钥</li><li>加密解密算法适用于所有密钥空间中的元素</li><li>系统便于实现和使用</li></ol><h3 id="密码系统的攻击"><a href="#密码系统的攻击" class="headerlink" title="密码系统的攻击"></a>密码系统的攻击</h3><ul><li>惟密文攻击</li><li>已知明文攻击</li><li>选择明文攻击</li><li>选择密文攻击</li></ul><table><thead><tr><th>攻击类型</th><th align="left">攻击者掌握的内容</th><th></th></tr></thead><tbody><tr><td>惟密文攻击</td><td align="left">加密算法，截获的部分密文</td><td></td></tr><tr><td>已知明文攻击</td><td align="left">以上及一个或多个明文密文对</td><td></td></tr><tr><td>选择明文攻击</td><td align="left">自己选择的明文消息及由密钥产生的密文</td><td></td></tr><tr><td>选择密文攻击</td><td align="left">自己选择的密文消息及相应的被解密的明文</td><td></td></tr><tr><td></td><td align="left"></td><td></td></tr></tbody></table><p>无条件安全：无论敌手截获多少密文，花费多长时间都不能解密密文 （一次一密</p><p>计算上安全：1，破译密文的代价超过被加密信息的价值。2，破译密文所花的时间超过信息的有用期。</p><h2 id="密码学发展"><a href="#密码学发展" class="headerlink" title="密码学发展"></a>密码学发展</h2><p>Cryptology - 密码学</p><blockquote><p>三个阶段：</p><p>1.1949之前：古典密码 艺术</p><p>2.1949-1975：近代密码 艺术-&gt;科学</p><p>3.1976年至今：现代密码</p></blockquote><p>古典密码：</p><ol><li>斯巴达棍。算法是缠绕，密钥是棍子的粗细。</li><li>单表代换密码：凯撒密码，单字母代换。算法是代换，密钥是密码表。</li><li>多表代换密码：Enigma密码机。</li></ol><p>近代密码：</p><ol><li>1977年，NBS颁布采纳IBM设计的方案作为非机密数据的数据加密标准DES，Data Encryption Standard。</li><li>2001.11.16，采用AES算法</li><li>1976，W.Diffie，M.E.Hellman，提出非对称密码算法思想</li><li>1977，Rivest，Shamir，Adleman提出RSA密码体制</li></ol><p>公钥密码学实现加密密钥和解密密钥的分离，伟大革命，使用两个密钥：公钥，私钥</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 校内课程笔记 </tag>
+            
+            <tag> Cryptography </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>2020年度总结</title>
       <link href="2021/03/05/2020%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/"/>
       <url>2021/03/05/2020%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</url>
