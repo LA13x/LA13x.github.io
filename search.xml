@@ -25,27 +25,6 @@
     
     
     <entry>
-      <title>命令执行题目</title>
-      <link href="2021/03/08/command-ujn/"/>
-      <url>2021/03/08/command-ujn/</url>
-      
-        <content type="html"><![CDATA[<h2 id="BUUCTF-2018-Online-Tool"><a href="#BUUCTF-2018-Online-Tool" class="headerlink" title="[BUUCTF 2018]Online Tool"></a>[BUUCTF 2018]Online Tool</h2><p>两个关键函数<br><img src="https://i.loli.net/2021/03/08/9yFT2z7HSYBW5vo.png" alt="escapeshellarg.png"><br><img src="https://i.loli.net/2021/03/08/psPeKaLGCgZ2ruE.png" alt="escapeshellcmd.png"></p><hr><p><a href="https://paper.seebug.org/164/">https://paper.seebug.org/164/</a></p><p><img src="https://i.loli.net/2021/03/08/hp5uxkwUfQb9TWq.png" alt="arg_cmd_bug.png"></p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 社团 </tag>
-            
-            <tag> 命令执行 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>buuctf:[CISCN 2019 初赛] Love Math-总结数学中的命令执行</title>
       <link href="2021/03/06/web1-love-math/"/>
       <url>2021/03/06/web1-love-math/</url>
@@ -62,11 +41,11 @@
       
         <tags>
             
-            <tag> 命令执行 </tag>
-            
             <tag> buuctf </tag>
             
             <tag> web </tag>
+            
+            <tag> 命令执行 </tag>
             
         </tags>
       
