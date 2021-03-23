@@ -4,6 +4,27 @@
   
     
     <entry>
+      <title>crackme-1</title>
+      <link href="2021/03/23/crackme1/"/>
+      <url>2021/03/23/crackme1/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://i.loli.net/2021/03/23/7OH8pcVqwFJzQdS.png" alt="1.png"><br>程序简介，一个简单的注册功能<br><img src="https://i.loli.net/2021/03/23/txOWv6PMi8fRLHA.png" alt="3.png"></p><p>首先x64dbg分析一下，根据程序功能找找字符串啥的<br><img src="https://i.loli.net/2021/03/23/nSVNcGjRhlZF7kK.png" alt="4.png"><br>IDA静态分析，来定位一下地址啥的，然后f5大法直接读伪代码<br><img src="https://i.loli.net/2021/03/23/DZecAmIPGyu4Ftg.png" alt="5.png"></p><figure class="highlight c"><table><tr><td class="code"><pre><span class="line">sub_4081C0(<span class="string">&quot;%d\n&quot;</span>, v4);</span><br><span class="line">v5 = sub_401A94(String);</span><br><span class="line"><span class="keyword">if</span> ( v5 == atoi(v7) )</span><br><span class="line">    MessageBoxW(a1, <span class="string">L&quot;You are such a gud boi! Lemme pat you!&quot;</span>, <span class="string">L&quot;Good boi!&quot;</span>, <span class="number">0</span>);</span><br></pre></td></tr></table></figure><p>最终定位到这个地方<br>主要分析一下v5和v7都是啥，通过ida的万能x引用大法，追踪到一个win32函数，查手册把功能和参数给搞清楚就ok了<br><img src="https://i.loli.net/2021/03/23/q9bHQUNZxaL6gSc.png" alt="2.png"></p><p>最终发现v5是注册时的名字，v7是我们输入的序列号，二者之间通过一个函数来处理，本地运行一下函数就行了，直接出序列号</p><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;string.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="keyword">int</span> i; <span class="comment">// [rsp+58h] [rbp-28h]</span></span><br><span class="line">  <span class="keyword">int</span> v3; <span class="comment">// [rsp+5Ch] [rbp-24h]</span></span><br><span class="line">  <span class="keyword">char</span> a1[] = <span class="string">&quot;Alex&quot;</span>;</span><br><span class="line">  v3 = <span class="number">1</span>;</span><br><span class="line">  <span class="keyword">for</span> ( i = <span class="number">0</span>; i &lt; <span class="built_in">strlen</span>(a1); ++i )</span><br><span class="line">    v3 += a1[i];</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;%d\n&quot;</span>,(<span class="keyword">unsigned</span> <span class="keyword">int</span>)((<span class="number">431136</span> * v3 - <span class="number">3000</span>) / <span class="number">2</span> - *a1));</span><br><span class="line">&#125;          </span><br></pre></td></tr></table></figure><p><img src="https://i.loli.net/2021/03/23/WFdr8CReqc2Qliu.png" alt="6.png"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> reverse </tag>
+            
+            <tag> crackme </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>pwn1</title>
       <link href="2021/03/13/pwn1/"/>
       <url>2021/03/13/pwn1/</url>
@@ -14,9 +35,9 @@
       
         <tags>
             
-            <tag> buuctf </tag>
-            
             <tag> pwn </tag>
+            
+            <tag> buuctf </tag>
             
         </tags>
       
