@@ -88,27 +88,6 @@
     
     
     <entry>
-      <title>路由与交换课堂笔记</title>
-      <link href="2021/03/09/RouterSwitch/"/>
-      <url>2021/03/09/RouterSwitch/</url>
-      
-        <content type="html"><![CDATA[<h1 id="二-网络设备配置与管理"><a href="#二-网络设备配置与管理" class="headerlink" title="二.网络设备配置与管理"></a>二.网络设备配置与管理</h1><h2 id="Cisco-IOS简介"><a href="#Cisco-IOS简介" class="headerlink" title="Cisco IOS简介"></a>Cisco IOS简介</h2><p>Cisco Internetwork Operatiing System (IOS) </p><h2 id="操作模式"><a href="#操作模式" class="headerlink" title="操作模式"></a>操作模式</h2><ul><li>用户模式：<ul><li>Router&gt;enable     #进入特权模式</li></ul></li><li>特权模式</li><li>全局配置模式</li><li>其他配置模式</li></ul><blockquote><p>退出指令：</p><p>​    disable：由特权模式到用户模式</p><p>​    exit：一级一级退出，在特权模式下断开连接</p><p>​    end：直接退到特权模式</p></blockquote><h1 id="三-交换技术基础"><a href="#三-交换技术基础" class="headerlink" title="三.交换技术基础"></a>三.交换技术基础</h1><h2 id="3-学习目标"><a href="#3-学习目标" class="headerlink" title="3.学习目标"></a>3.学习目标</h2><ul><li>掌握交换机工作原理</li><li>熟悉Cisco LAN交换机启动顺序</li><li>熟练掌握交换机基本配置</li><li>掌握SSH管理Cisco LAN交换机</li><li>了解交换网络的最佳时间</li><li>掌握Cisco LAN交换机端口安全</li></ul><h2 id="3-1交换机简介"><a href="#3-1交换机简介" class="headerlink" title="3.1交换机简介"></a>3.1交换机简介</h2><p>集线器没有mac地址表，交换机有，使用集线器时两台主机通信时网络中所有主机都可收到消息</p><h3 id="1-交换"><a href="#1-交换" class="headerlink" title="1.交换"></a>1.交换</h3><ul><li><p>交换机mac地址表</p><ul><li>默认： 空</li><li><p>学习：帧中的源MAC地址和进入端口号</p></li><li><p>转发：查表</p><ul><li>表中没有记录或广播帧<ul><li>除源端口之外的其他端口转发</li></ul></li><li>表中有记录<ul><li>转向相应端口</li><li>或被过滤掉：目标MAC地址对应的端口和进入的端口是同一个端口</li></ul></li></ul></li></ul></li></ul><h3 id="2-交换机转发方法"><a href="#2-交换机转发方法" class="headerlink" title="2.交换机转发方法"></a>2.交换机转发方法</h3><ul><li>交换机上数据帧转发方法<ul><li>存储转发交换<ul><li>数据缓冲 错误检查</li></ul></li><li>快速转发交换<ul><li>一旦检查到目标MAC地址就执行转发</li></ul></li><li>免分片交换<ul><li>数据帧长度达到64字节</li></ul></li></ul></li></ul><h3 id="4-分层网络设计"><a href="#4-分层网络设计" class="headerlink" title="4.分层网络设计"></a>4.分层网络设计</h3><ul><li>接入层<ul><li>网络边缘，流量将从这里进出园区网</li><li>面向用户的接入控制技术</li></ul></li><li>分布层<ul><li>隔离广播</li><li>路由</li><li>面向子网的网络访问策略</li></ul></li><li>核心层<ul><li>网络主干</li><li>主要用途是提供错误隔离和高速主干连接</li></ul></li></ul><h2 id="3-2交换机基本配置"><a href="#3-2交换机基本配置" class="headerlink" title="3.2交换机基本配置"></a>3.2交换机基本配置</h2><h3 id="1-交换机启动顺序"><a href="#1-交换机启动顺序" class="headerlink" title="1.交换机启动顺序"></a>1.交换机启动顺序</h3><ul><li>交换机启动顺序<ul><li>Power-on self test</li><li>运行启动加载起软件<ul><li>启动加载器执行低级CPU初始化</li><li>启动加载器初始化闪存文件系统</li></ul></li><li>启动加载器定位并加载默认IOS操作系统软件映像到内存，而且将对交换机的控制权交给IOS</li></ul></li></ul><h3 id="2-配置"><a href="#2-配置" class="headerlink" title="2.配置"></a>2.配置</h3><ul><li><p>初始配置</p><ul><li>PC COM口连接到交换机的Console口</li></ul></li><li><p>配置端口</p><ul><li><p>双工模式</p><ul><li>全双工Full</li><li>半双工Half</li><li>自协商Auto（默认）</li></ul></li><li><p>速率</p><ul><li>10/100 Mbps</li><li>自协商 默认</li></ul></li><li>MDIX自动功能</li></ul></li></ul><h2 id="3-3-安全"><a href="#3-3-安全" class="headerlink" title="3.3 安全"></a>3.3 安全</h2><h3 id="1-安全实践"><a href="#1-安全实践" class="headerlink" title="1.安全实践"></a>1.安全实践</h3><ul><li><p>十项安全实践</p><ul><li>开发组织的<strong>书面安全策略</strong></li><li><strong>关闭不使用</strong>的服务和端口</li><li>使用<strong>强密码</strong>并经常进行更改</li><li>控制对设备的物理访问</li><li>使用<strong>HTTPs</strong>替换HTTP</li><li>执行<strong>备份</strong>并定期测试备份的文件</li><li>向员工就社会工程攻击进行<strong>培训</strong></li><li><strong>加密</strong>并使用<strong>密码保护</strong>敏感数据</li><li>实施<strong>防火墙</strong></li><li>保持软件为<strong>最新</strong>版本</li></ul></li></ul><h3 id="2-LAN中的安全问题"><a href="#2-LAN中的安全问题" class="headerlink" title="2.LAN中的安全问题"></a>2.LAN中的安全问题</h3><ul><li>MAC地址泛洪<ul><li>进入交换机的数据帧如果无法在其CAM表中找到目的MAC，交换机将通过除源端口之外的所有端口转发流量</li><li>攻击者的PC运行MAC泛洪工具，最终伪造MAC地址会充满CAM表，从而使查表工作无效，交换机就像集线器一样以广播方式工作</li></ul></li><li>利用Telnet<ul><li>Telnet协议是不安全的，应该用SSH代替</li><li>暴力密码破解攻击</li><li>Telnet DoS攻击</li></ul></li></ul><h3 id="3-交换机端口安全"><a href="#3-交换机端口安全" class="headerlink" title="3.交换机端口安全"></a>3.交换机端口安全</h3><ul><li>端口安全限制端口上所允许的有效MAC地址</li><li>允许访问合法设备的MAC地址，而拒绝访问其他MAC地址</li><li>任何通过未知MAC地址进行连接的其他尝试都会导致安全违规</li><li><p>可以通过多种方式配置安全MAC地址：</p><ul><li>静态安全MAC地址 static</li><li>动态安全MAC地址 Dynamic</li><li>粘滞安全MAC地址 Sticky</li></ul></li><li><p>默认不启动端口安全功能 </p></li><li><p>手动启动后的默认配置</p><ul><li>最大安全MAC地址： 1</li><li>违规模式： shutdown</li><li>粘滞地址： 不启用</li></ul></li><li><p>保护未使用的端口</p></li></ul><h3 id="4-SSH"><a href="#4-SSH" class="headerlink" title="4.SSH"></a>4.SSH</h3><ul><li>配置SSH<ul><li>主机名称    </li><li>域名</li><li>本地认证 或者 AAA<ul><li>需要用户名和密码</li></ul></li></ul></li></ul><p>使用crypto key generate rsa 全局配置模式生成RSA密钥对，自动启用ssh</p><p>使用crypto key zeroize rsa 全局配置模式命令删除RSA密钥对，SSH服务器将自动禁用</p><p><code>ssh -l username ip-address</code></p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 校内课程笔记 </tag>
-            
-            <tag> 路由与交换 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>buuctf:[CISCN 2019 初赛] Love Math-总结数学中的命令执行</title>
       <link href="2021/03/06/web1-love-math/"/>
       <url>2021/03/06/web1-love-math/</url>
