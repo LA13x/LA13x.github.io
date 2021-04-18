@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>ubuntu20.04 安装angr</title>
+      <link href="2021/04/18/angr-install/"/>
+      <url>2021/04/18/angr-install/</url>
+      
+        <content type="html"><![CDATA[<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo apt-get install python-dev libffi-dev build-essential</span><br><span class="line">pip3 install virtualenv  </span><br><span class="line">pip3 install virtualenvwrapper</span><br></pre></td></tr></table></figure><p>在.zshrc中添加(或.bash_profile)<br><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">export</span> WORKON_HOME=~/.virtualenvs</span><br><span class="line"><span class="built_in">export</span> VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3</span><br><span class="line"><span class="built_in">export</span> VIRTUALENVWRAPPER_VIRTUALENV=~/.<span class="built_in">local</span>/bin/virtualenv</span><br><span class="line"><span class="built_in">source</span> ～/.<span class="built_in">local</span>/bin/virtualenvwrapper.sh</span><br></pre></td></tr></table></figure><br>保存后执行<code>source ～/.zshrc</code></p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 创建虚拟环境</span></span><br><span class="line">mkvirtualenv env1 </span><br><span class="line">workon env1 </span><br><span class="line"></span><br><span class="line">pip3 install cffi</span><br><span class="line">pip3 install angr</span><br></pre></td></tr></table></figure><p>python3打开终端，import angr测试发现安装成功</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 环境配置 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>buuctf-reverse1</title>
       <link href="2021/04/16/buuctf-reverse1/"/>
       <url>2021/04/16/buuctf-reverse1/</url>
