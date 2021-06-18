@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Alex&#39;s blog~</title>
+  
+  <subtitle>道阻且长</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2021-06-18T07:55:11.279Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>Alex</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>DataLab</title>
+    <link href="http://example.com/2021/06/17/DataLab/"/>
+    <id>http://example.com/2021/06/17/DataLab/</id>
+    <published>2021-06-17T01:26:31.000Z</published>
+    <updated>2021-06-18T07:55:11.279Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;实验过程&quot;&gt;&lt;a href=&quot;#实验过程&quot; class=&quot;headerlink&quot; title=&quot;实验过程&quot;&gt;&lt;/a&gt;实验过程&lt;/h1&gt;&lt;h2 id=&quot;bitXor&quot;&gt;&lt;a href=&quot;#bitXor&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="csapp" scheme="http://example.com/tags/csapp/"/>
+    
+    <category term="cmu lab" scheme="http://example.com/tags/cmu-lab/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Bomb Lab</title>
+    <link href="http://example.com/2021/06/15/BombLab/"/>
+    <id>http://example.com/2021/06/15/BombLab/</id>
+    <published>2021-06-15T07:03:16.000Z</published>
+    <updated>2021-06-16T07:42:37.540Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;实验说明：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A “binary bomb” is a program provided to students as an object code file. When run, it prompts the user to</summary>
+        
+      
+    
+    
+    
+    
+    <category term="csapp" scheme="http://example.com/tags/csapp/"/>
+    
+    <category term="cmu lab" scheme="http://example.com/tags/cmu-lab/"/>
+    
+    <category term="reverse" scheme="http://example.com/tags/reverse/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>DASCTF-MAY pwn wp</title>
+    <link href="http://example.com/2021/06/05/DASCTF-MAY/"/>
+    <id>http://example.com/2021/06/05/DASCTF-MAY/</id>
+    <published>2021-06-05T00:35:40.000Z</published>
+    <updated>2021-06-05T01:15:43.268Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;两道题都比较中规中矩，第二个比第一个还简单，第一个比赛一开始想歪了，做了很jb久，第二个十几分钟就出了&lt;/p&gt;
+&lt;h2 id=&quot;ticket&quot;&gt;&lt;a href=&quot;#ticket&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="wp" scheme="http://example.com/tags/wp/"/>
+    
+    <category term="pwn" scheme="http://example.com/tags/pwn/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>VMPWN</title>
+    <link href="http://example.com/2021/05/30/VMPWN/"/>
+    <id>http://example.com/2021/05/30/VMPWN/</id>
+    <published>2021-05-30T15:01:38.000Z</published>
+    <updated>2021-05-30T15:02:27.239Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;ciscn-2019-qual-virtual&quot;&gt;&lt;a href=&quot;#ciscn-2019-qual-virtual&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="pwn" scheme="http://example.com/tags/pwn/"/>
+    
+    <category term="VMpwn" scheme="http://example.com/tags/VMpwn/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JlenuCTF</title>
+    <link href="http://example.com/2021/05/23/JlenuCTF/"/>
+    <id>http://example.com/2021/05/23/JlenuCTF/</id>
+    <published>2021-05-23T04:24:59.000Z</published>
+    <updated>2021-05-23T05:15:50.926Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;反正交完wp了，索性水个博客吧（&lt;/p&gt;
+&lt;h2 id=&quot;HAPPYGAME&quot;&gt;&lt;a href=&quot;#HAPPYGAME&quot; class=&quot;headerlink&quot; title=&quot;HAPPYGAME&quot;&gt;&lt;/a&gt;HAPPYGAME&lt;/h2&gt;&lt;h3 id=&quot;SIMPIOT&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="wp" scheme="http://example.com/tags/wp/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>buuctf-pwn系列2</title>
+    <link href="http://example.com/2021/05/11/pwn2/"/>
+    <id>http://example.com/2021/05/11/pwn2/</id>
+    <published>2021-05-11T12:13:53.000Z</published>
+    <updated>2021-06-16T11:39:57.418Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;rootersctf-2019-babypwn&quot;&gt;&lt;a href=&quot;#rootersctf-2019-babypwn&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="pwn" scheme="http://example.com/tags/pwn/"/>
+    
+    <category term="buuctf" scheme="http://example.com/tags/buuctf/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Tcache Stash Unlink Demo 演示</title>
+    <link href="http://example.com/2021/05/11/Tcache-Stash-Unlink-demo/"/>
+    <id>http://example.com/2021/05/11/Tcache-Stash-Unlink-demo/</id>
+    <published>2021-05-11T08:53:42.000Z</published>
+    <updated>2021-05-11T08:54:38.222Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;实例源码演示&quot;&gt;&lt;a href=&quot;#实例源码演示&quot; class=&quot;headerlink&quot; title=&quot;实例源码演示&quot;&gt;&lt;/a&gt;实例源码演示&lt;/h3&gt;&lt;figure class=&quot;highlight c&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
+        
+      
+    
+    
+    
+    
+    <category term="pwn" scheme="http://example.com/tags/pwn/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SEH</title>
+    <link href="http://example.com/2021/05/10/SEH/"/>
+    <id>http://example.com/2021/05/10/SEH/</id>
+    <published>2021-05-10T01:37:50.000Z</published>
+    <updated>2021-05-10T14:32:29.872Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot; title=&quot;说明&quot;&gt;&lt;/a&gt;说明&lt;/h3&gt;&lt;p&gt;结构化异常处理（SEH）是Windows操作系统提供的强大异常处理功能。而Visual</summary>
+        
+      
+    
+    
+    
+    
+    <category term="-reverse" scheme="http://example.com/tags/reverse/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>混淆技术-控制流平坦化 [SUCTF2019]hardcpp</title>
+    <link href="http://example.com/2021/04/18/hardCpp/"/>
+    <id>http://example.com/2021/04/18/hardCpp/</id>
+    <published>2021-04-18T09:44:59.000Z</published>
+    <updated>2021-04-18T10:37:41.006Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;去除平坦化&quot;&gt;&lt;a href=&quot;#去除平坦化&quot; class=&quot;headerlink&quot; title=&quot;去除平坦化&quot;&gt;&lt;/a&gt;去除平坦化&lt;/h2&gt;&lt;p&gt;给了elf文件，一开始缺libc库，先下载下来&lt;br&gt;&lt;figure class=&quot;highlight</summary>
+        
+      
+    
+    
+    
+    
+    <category term="reverse" scheme="http://example.com/tags/reverse/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ubuntu20.04 去除控制流平坦化的工具deflat.py安装</title>
+    <link href="http://example.com/2021/04/18/angr-install/"/>
+    <id>http://example.com/2021/04/18/angr-install/</id>
+    <published>2021-04-18T01:39:28.000Z</published>
+    <updated>2021-04-18T02:04:25.047Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;在virtualenv中安装angr&quot;&gt;&lt;a href=&quot;#在virtualenv中安装angr&quot; class=&quot;headerlink&quot; title=&quot;在virtualenv中安装angr&quot;&gt;&lt;/a&gt;在virtualenv中安装angr&lt;/h2&gt;&lt;figure</summary>
+        
+      
+    
+    
+    
+    
+    <category term="环境配置" scheme="http://example.com/tags/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>buuctf-reverse题解2</title>
+    <link href="http://example.com/2021/04/16/buuctf-reverse1/"/>
+    <id>http://example.com/2021/04/16/buuctf-reverse1/</id>
+    <published>2021-04-16T06:34:05.000Z</published>
+    <updated>2021-04-21T12:58:16.073Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;1-羊城杯-2020-login&quot;&gt;&lt;a href=&quot;#1-羊城杯-2020-login&quot; class=&quot;headerlink&quot; title=&quot;1.[羊城杯 2020]login&quot;&gt;&lt;/a&gt;1.[羊城杯</summary>
+        
+      
+    
+    
+    
+    
+    <category term="-reverse" scheme="http://example.com/tags/reverse/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Laravel框架学习</title>
+    <link href="http://example.com/2021/04/14/Laravel-study/"/>
+    <id>http://example.com/2021/04/14/Laravel-study/</id>
+    <published>2021-04-14T03:04:18.000Z</published>
+    <updated>2021-04-14T08:10:21.265Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;了解框架的MVC模型&quot;&gt;&lt;a href=&quot;#了解框架的MVC模型&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="laravel" scheme="http://example.com/tags/laravel/"/>
+    
+    <category term="php" scheme="http://example.com/tags/php/"/>
+    
+    <category term="开发学习" scheme="http://example.com/tags/%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="开发框架" scheme="http://example.com/tags/%E5%BC%80%E5%8F%91%E6%A1%86%E6%9E%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>buuctf reverse题解1</title>
+    <link href="http://example.com/2021/04/07/buuctf-reverse/"/>
+    <id>http://example.com/2021/04/07/buuctf-reverse/</id>
+    <published>2021-04-07T13:21:26.000Z</published>
+    <updated>2021-04-11T03:41:56.863Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;1-GXYCTF2019-luck-guy&quot;&gt;&lt;a href=&quot;#1-GXYCTF2019-luck-guy&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="-reverse" scheme="http://example.com/tags/reverse/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>__x86.get_pc_thunk.ax函数</title>
+    <link href="http://example.com/2021/04/06/ax/"/>
+    <id>http://example.com/2021/04/06/ax/</id>
+    <published>2021-04-06T08:28:19.000Z</published>
+    <updated>2021-04-06T10:00:46.486Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;x86-get-pc-thunk&quot;&gt;&lt;a href=&quot;#x86-get-pc-thunk&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="-reverse" scheme="http://example.com/tags/reverse/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>crackme</title>
+    <link href="http://example.com/2021/03/23/crackme1/"/>
+    <id>http://example.com/2021/03/23/crackme1/</id>
+    <published>2021-03-23T15:40:48.000Z</published>
+    <updated>2021-03-29T05:57:31.668Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Peach’s-Crackme&quot;&gt;&lt;a href=&quot;#Peach’s-Crackme&quot; class=&quot;headerlink&quot; title=&quot;Peach’s Crackme&quot;&gt;&lt;/a&gt;Peach’s Crackme&lt;/h2&gt;&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    
+    <category term="reverse" scheme="http://example.com/tags/reverse/"/>
+    
+    <category term="crackme" scheme="http://example.com/tags/crackme/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>buuctf-pwn系列1</title>
+    <link href="http://example.com/2021/03/13/pwn1/"/>
+    <id>http://example.com/2021/03/13/pwn1/</id>
+    <published>2021-03-13T14:16:43.000Z</published>
+    <updated>2021-05-11T12:14:40.731Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;记录下buuctf pwn的write up&lt;/p&gt;
+&lt;h2 id=&quot;judgement-mna-2016&quot;&gt;&lt;a href=&quot;#judgement-mna-2016&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="pwn" scheme="http://example.com/tags/pwn/"/>
+    
+    <category term="buuctf" scheme="http://example.com/tags/buuctf/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>pwn-actf栈迁移</title>
+    <link href="http://example.com/2021/03/12/pwn-actf%E6%A0%88%E8%BF%81%E7%A7%BB/"/>
+    <id>http://example.com/2021/03/12/pwn-actf%E6%A0%88%E8%BF%81%E7%A7%BB/</id>
+    <published>2021-03-12T01:41:04.000Z</published>
+    <updated>2021-03-14T13:34:02.219Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;exp&quot;&gt;&lt;a href=&quot;#exp&quot; class=&quot;headerlink&quot; title=&quot;exp&quot;&gt;&lt;/a&gt;exp&lt;/h2&gt;&lt;p&gt;给出exp如下&lt;/p&gt;
+&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
+        
+      
+    
+    
+    
+    
+    <category term="pwn" scheme="http://example.com/tags/pwn/"/>
+    
+    <category term="栈迁移" scheme="http://example.com/tags/%E6%A0%88%E8%BF%81%E7%A7%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>二进制程序从源文件到可执行程序的过程</title>
+    <link href="http://example.com/2021/03/09/binary-programming/"/>
+    <id>http://example.com/2021/03/09/binary-programming/</id>
+    <published>2021-03-09T12:08:16.000Z</published>
+    <updated>2021-03-09T14:26:55.738Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;在c语言中，我们都知道一个源程序从源码到可执行文件都要经历预处理，编译，汇编和链接的过程，最终形成可执行文件，然后才被操作系统装载进内存运行。&lt;/p&gt;
+&lt;p&gt;为了复习pwn知识，写个文章来探究一下经常被我忽略的关于程序的中间过程。&lt;/p&gt;
+&lt;h2 id=&quot;预编译&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="二进制" scheme="http://example.com/tags/%E4%BA%8C%E8%BF%9B%E5%88%B6/"/>
+    
+    <category term="程序与操作系统" scheme="http://example.com/tags/%E7%A8%8B%E5%BA%8F%E4%B8%8E%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>buuctf:[CISCN 2019 初赛] Love Math-总结数学中的命令执行</title>
+    <link href="http://example.com/2021/03/06/web1-love-math/"/>
+    <id>http://example.com/2021/03/06/web1-love-math/</id>
+    <published>2021-03-06T08:19:10.000Z</published>
+    <updated>2021-03-06T09:52:00.761Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;分析&quot;&gt;&lt;a href=&quot;#分析&quot; class=&quot;headerlink&quot; title=&quot;分析&quot;&gt;&lt;/a&gt;分析&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;开局给了源码 拿到本地分析一下&lt;br&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="http://example.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="buuctf" scheme="http://example.com/tags/buuctf/"/>
+    
+    <category term="web" scheme="http://example.com/tags/web/"/>
+    
+    <category term="命令执行" scheme="http://example.com/tags/%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Machine Learning</title>
+    <link href="http://example.com/2021/03/05/ML/"/>
+    <id>http://example.com/2021/03/05/ML/</id>
+    <published>2021-03-05T10:44:01.000Z</published>
+    <updated>2021-03-15T10:13:24.226Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;1-4-Unsupervised-Learning&quot;&gt;&lt;a href=&quot;#1-4-Unsupervised-Learning&quot; class=&quot;headerlink&quot; title=&quot;1-4.Unsupervised</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="http://example.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="Machine Learning" scheme="http://example.com/tags/Machine-Learning/"/>
+    
+  </entry>
+  
+</feed>
