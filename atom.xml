@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-06-18T07:55:11.279Z</updated>
+  <updated>2021-07-10T02:27:11.123Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>DataLab</title>
-    <link href="http://example.com/2021/06/17/DataLab/"/>
-    <id>http://example.com/2021/06/17/DataLab/</id>
-    <published>2021-06-17T01:26:31.000Z</published>
-    <updated>2021-06-18T07:55:11.279Z</updated>
+    <link href="http://example.com/2021/07/10/DataLab/"/>
+    <id>http://example.com/2021/07/10/DataLab/</id>
+    <published>2021-07-10T02:26:53.000Z</published>
+    <updated>2021-07-10T02:27:11.123Z</updated>
     
     
       
@@ -36,8 +36,6 @@
     
     
     <category term="csapp" scheme="http://example.com/tags/csapp/"/>
-    
-    <category term="cmu lab" scheme="http://example.com/tags/cmu-lab/"/>
     
   </entry>
   
