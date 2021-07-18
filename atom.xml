@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-07-10T02:27:11.123Z</updated>
+  <updated>2021-07-18T09:20:02.580Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>AttackLab</title>
+    <link href="http://example.com/2021/07/18/AttackLab/"/>
+    <id>http://example.com/2021/07/18/AttackLab/</id>
+    <published>2021-07-18T01:43:58.000Z</published>
+    <updated>2021-07-18T09:20:02.580Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;实验&quot;&gt;&lt;a href=&quot;#实验&quot; class=&quot;headerlink&quot; title=&quot;实验&quot;&gt;&lt;/a&gt;实验&lt;/h1&gt;&lt;h2 id=&quot;touch1&quot;&gt;&lt;a href=&quot;#touch1&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="pwn" scheme="http://example.com/tags/pwn/"/>
+    
+    <category term="csapp" scheme="http://example.com/tags/csapp/"/>
+    
+    <category term="cmu lab" scheme="http://example.com/tags/cmu-lab/"/>
+    
+  </entry>
   
   <entry>
     <title>DataLab</title>
@@ -489,31 +516,6 @@
     <category term="web" scheme="http://example.com/tags/web/"/>
     
     <category term="命令执行" scheme="http://example.com/tags/%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Machine Learning</title>
-    <link href="http://example.com/2021/03/05/ML/"/>
-    <id>http://example.com/2021/03/05/ML/</id>
-    <published>2021-03-05T10:44:01.000Z</published>
-    <updated>2021-03-15T10:13:24.226Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;1-4-Unsupervised-Learning&quot;&gt;&lt;a href=&quot;#1-4-Unsupervised-Learning&quot; class=&quot;headerlink&quot; title=&quot;1-4.Unsupervised</summary>
-        
-      
-    
-    
-    
-    <category term="技术" scheme="http://example.com/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-    <category term="Machine Learning" scheme="http://example.com/tags/Machine-Learning/"/>
     
   </entry>
   
