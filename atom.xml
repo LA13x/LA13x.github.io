@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-07-21T09:17:21.196Z</updated>
+  <updated>2021-07-23T15:28:10.890Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>switch-libc</title>
+    <link href="http://example.com/2021/07/23/switch-libc/"/>
+    <id>http://example.com/2021/07/23/switch-libc/</id>
+    <published>2021-07-23T15:17:29.000Z</published>
+    <updated>2021-07-23T15:28:10.890Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;更便捷切换libc&quot;&gt;&lt;a href=&quot;#更便捷切换libc&quot; class=&quot;headerlink&quot; title=&quot;更便捷切换libc&quot;&gt;&lt;/a&gt;更便捷切换libc&lt;/h2&gt;&lt;p&gt;目前自己的切换libc的方法是用&lt;code&gt;patchelf</summary>
+        
+      
+    
+    
+    
+    
+    <category term="pwn" scheme="http://example.com/tags/pwn/"/>
+    
+  </entry>
   
   <entry>
     <title>bss段上格式化字符串的利用手法</title>
@@ -481,32 +504,6 @@
     <category term="pwn" scheme="http://example.com/tags/pwn/"/>
     
     <category term="buuctf" scheme="http://example.com/tags/buuctf/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>pwn-actf栈迁移</title>
-    <link href="http://example.com/2021/03/12/pwn-actf%E6%A0%88%E8%BF%81%E7%A7%BB/"/>
-    <id>http://example.com/2021/03/12/pwn-actf%E6%A0%88%E8%BF%81%E7%A7%BB/</id>
-    <published>2021-03-12T01:41:04.000Z</published>
-    <updated>2021-03-14T13:34:02.219Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;exp&quot;&gt;&lt;a href=&quot;#exp&quot; class=&quot;headerlink&quot; title=&quot;exp&quot;&gt;&lt;/a&gt;exp&lt;/h2&gt;&lt;p&gt;给出exp如下&lt;/p&gt;
-&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
-        
-      
-    
-    
-    
-    
-    <category term="pwn" scheme="http://example.com/tags/pwn/"/>
-    
-    <category term="栈迁移" scheme="http://example.com/tags/%E6%A0%88%E8%BF%81%E7%A7%BB/"/>
     
   </entry>
   
