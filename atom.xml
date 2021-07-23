@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-07-23T15:28:10.890Z</updated>
+  <updated>2021-07-23T15:28:43.018Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>switch-libc</title>
+    <title>shell脚本 + patchelf方便切换libc</title>
     <link href="http://example.com/2021/07/23/switch-libc/"/>
     <id>http://example.com/2021/07/23/switch-libc/</id>
     <published>2021-07-23T15:17:29.000Z</published>
-    <updated>2021-07-23T15:28:10.890Z</updated>
+    <updated>2021-07-23T15:28:43.018Z</updated>
     
     
       

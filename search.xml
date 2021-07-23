@@ -4,7 +4,7 @@
   
     
     <entry>
-      <title>switch-libc</title>
+      <title>shell脚本 + patchelf方便切换libc</title>
       <link href="2021/07/23/switch-libc/"/>
       <url>2021/07/23/switch-libc/</url>
       
