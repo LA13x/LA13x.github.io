@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-07-23T15:28:43.018Z</updated>
+  <updated>2021-07-26T03:29:44.231Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>largebin attack 学习</title>
+    <link href="http://example.com/2021/07/25/largebin-attack/"/>
+    <id>http://example.com/2021/07/25/largebin-attack/</id>
+    <published>2021-07-25T01:58:47.000Z</published>
+    <updated>2021-07-26T03:29:44.231Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;largebin-attack&quot;&gt;&lt;a href=&quot;#largebin-attack&quot; class=&quot;headerlink&quot; title=&quot;largebin attack&quot;&gt;&lt;/a&gt;largebin</summary>
+        
+      
+    
+    
+    
+    
+    <category term="pwn" scheme="http://example.com/tags/pwn/"/>
+    
+    <category term="largebin attack" scheme="http://example.com/tags/largebin-attack/"/>
+    
+    <category term="ptmalloc2" scheme="http://example.com/tags/ptmalloc2/"/>
+    
+  </entry>
   
   <entry>
     <title>shell脚本 + patchelf方便切换libc</title>
@@ -478,32 +505,6 @@
     <category term="reverse" scheme="http://example.com/tags/reverse/"/>
     
     <category term="crackme" scheme="http://example.com/tags/crackme/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>buuctf-pwn系列1</title>
-    <link href="http://example.com/2021/03/13/pwn1/"/>
-    <id>http://example.com/2021/03/13/pwn1/</id>
-    <published>2021-03-13T14:16:43.000Z</published>
-    <updated>2021-05-11T12:14:40.731Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;记录下buuctf pwn的write up&lt;/p&gt;
-&lt;h2 id=&quot;judgement-mna-2016&quot;&gt;&lt;a href=&quot;#judgement-mna-2016&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    
-    <category term="pwn" scheme="http://example.com/tags/pwn/"/>
-    
-    <category term="buuctf" scheme="http://example.com/tags/buuctf/"/>
     
   </entry>
   
