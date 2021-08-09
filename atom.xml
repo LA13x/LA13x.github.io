@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-08-02T08:12:01.228Z</updated>
+  <updated>2021-08-09T01:18:34.899Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>BUUCTF第三周</title>
+    <link href="http://example.com/2021/08/05/BUUCTF%E7%AC%AC%E4%B8%89%E5%91%A8/"/>
+    <id>http://example.com/2021/08/05/BUUCTF%E7%AC%AC%E4%B8%89%E5%91%A8/</id>
+    <published>2021-08-05T08:44:16.000Z</published>
+    <updated>2021-08-09T01:18:34.899Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;wdb2018-guess&quot;&gt;&lt;a href=&quot;#wdb2018-guess&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="pwn" scheme="http://example.com/tags/pwn/"/>
+    
+    <category term="buuctf" scheme="http://example.com/tags/buuctf/"/>
+    
+  </entry>
   
   <entry>
     <title>pwn环境搭建</title>
@@ -481,35 +506,6 @@
     
     
     <category term="-reverse" scheme="http://example.com/tags/reverse/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Laravel框架学习</title>
-    <link href="http://example.com/2021/04/14/Laravel-study/"/>
-    <id>http://example.com/2021/04/14/Laravel-study/</id>
-    <published>2021-04-14T03:04:18.000Z</published>
-    <updated>2021-04-14T08:10:21.265Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;了解框架的MVC模型&quot;&gt;&lt;a href=&quot;#了解框架的MVC模型&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    
-    <category term="laravel" scheme="http://example.com/tags/laravel/"/>
-    
-    <category term="php" scheme="http://example.com/tags/php/"/>
-    
-    <category term="开发学习" scheme="http://example.com/tags/%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0/"/>
-    
-    <category term="开发框架" scheme="http://example.com/tags/%E5%BC%80%E5%8F%91%E6%A1%86%E6%9E%B6/"/>
     
   </entry>
   
