@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-08-09T01:18:34.899Z</updated>
+  <updated>2021-08-12T14:06:23.391Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>kernel-pwn基础知识学习</title>
+    <link href="http://example.com/2021/08/10/kernal-pwn%E5%AD%A6%E4%B9%A0%E4%B9%8B%E8%B7%AF/"/>
+    <id>http://example.com/2021/08/10/kernal-pwn%E5%AD%A6%E4%B9%A0%E4%B9%8B%E8%B7%AF/</id>
+    <published>2021-08-10T13:42:31.000Z</published>
+    <updated>2021-08-12T14:06:23.391Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;原文：&lt;a href=&quot;https://www.anquanke.com/post/id/201043&quot;&gt;https://www.anquanke.com/post/id/201043&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;照着原文手打了一遍，印象加深get&lt;/p&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    
+    <category term="pwn" scheme="http://example.com/tags/pwn/"/>
+    
+    <category term="kernel" scheme="http://example.com/tags/kernel/"/>
+    
+  </entry>
   
   <entry>
     <title>BUUCTF第三周</title>
@@ -483,29 +510,6 @@
     
     
     <category term="环境配置" scheme="http://example.com/tags/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>buuctf-reverse题解2</title>
-    <link href="http://example.com/2021/04/16/buuctf-reverse1/"/>
-    <id>http://example.com/2021/04/16/buuctf-reverse1/</id>
-    <published>2021-04-16T06:34:05.000Z</published>
-    <updated>2021-04-21T12:58:16.073Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;1-羊城杯-2020-login&quot;&gt;&lt;a href=&quot;#1-羊城杯-2020-login&quot; class=&quot;headerlink&quot; title=&quot;1.[羊城杯 2020]login&quot;&gt;&lt;/a&gt;1.[羊城杯</summary>
-        
-      
-    
-    
-    
-    
-    <category term="-reverse" scheme="http://example.com/tags/reverse/"/>
     
   </entry>
   
