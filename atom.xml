@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-08-12T14:06:23.391Z</updated>
+  <updated>2021-08-22T13:20:56.737Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>HIT-OSlab3</title>
+    <link href="http://example.com/2021/08/22/HIT-OSlab3/"/>
+    <id>http://example.com/2021/08/22/HIT-OSlab3/</id>
+    <published>2021-08-22T12:56:48.000Z</published>
+    <updated>2021-08-22T13:20:56.737Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;在借助linux0.11内核代码剖析，别人的实验代码，以及操作系统原理实现与实践下完成QAQ&lt;/p&gt;
+&lt;h2 id=&quot;process-c&quot;&gt;&lt;a href=&quot;#process-c&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="os" scheme="http://example.com/tags/os/"/>
+    
+    <category term="lab" scheme="http://example.com/tags/lab/"/>
+    
+  </entry>
   
   <entry>
     <title>kernel-pwn基础知识学习</title>
@@ -487,29 +513,6 @@
     
     
     <category term="reverse" scheme="http://example.com/tags/reverse/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>ubuntu20.04 去除控制流平坦化的工具deflat.py安装</title>
-    <link href="http://example.com/2021/04/18/angr-install/"/>
-    <id>http://example.com/2021/04/18/angr-install/</id>
-    <published>2021-04-18T01:39:28.000Z</published>
-    <updated>2021-04-18T02:04:25.047Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;在virtualenv中安装angr&quot;&gt;&lt;a href=&quot;#在virtualenv中安装angr&quot; class=&quot;headerlink&quot; title=&quot;在virtualenv中安装angr&quot;&gt;&lt;/a&gt;在virtualenv中安装angr&lt;/h2&gt;&lt;figure</summary>
-        
-      
-    
-    
-    
-    
-    <category term="环境配置" scheme="http://example.com/tags/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
     
   </entry>
   
