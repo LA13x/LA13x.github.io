@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-09-14T07:35:14.035Z</updated>
+  <updated>2021-09-19T10:36:44.870Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>长城杯wp</title>
+    <link href="http://example.com/2021/09/19/%E9%95%BF%E5%9F%8E%E6%9D%AF/"/>
+    <id>http://example.com/2021/09/19/%E9%95%BF%E5%9F%8E%E6%9D%AF/</id>
+    <published>2021-09-19T10:06:27.000Z</published>
+    <updated>2021-09-19T10:36:44.870Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;长城杯wp，pwn 3道题，出了俩，第三个vm不会，0解题，等一手wp&lt;/p&gt;
+&lt;h2 id=&quot;签到&quot;&gt;&lt;a href=&quot;#签到&quot; class=&quot;headerlink&quot; title=&quot;签到&quot;&gt;&lt;/a&gt;签到&lt;/h2&gt;&lt;p&gt;unhex然后base64</summary>
+        
+      
+    
+    
+    
+    
+    <category term="pwn" scheme="http://example.com/tags/pwn/"/>
+    
+    <category term="UAF" scheme="http://example.com/tags/UAF/"/>
+    
+    <category term="sandbox" scheme="http://example.com/tags/sandbox/"/>
+    
+  </entry>
   
   <entry>
     <title>通过angr-ctf学习angr符号执行</title>
@@ -495,31 +523,6 @@
     
     
     <category term="wp" scheme="http://example.com/tags/wp/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>buuctf-pwn系列2</title>
-    <link href="http://example.com/2021/05/11/pwn2/"/>
-    <id>http://example.com/2021/05/11/pwn2/</id>
-    <published>2021-05-11T12:13:53.000Z</published>
-    <updated>2021-07-18T14:49:55.864Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;rootersctf-2019-babypwn&quot;&gt;&lt;a href=&quot;#rootersctf-2019-babypwn&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    
-    <category term="pwn" scheme="http://example.com/tags/pwn/"/>
-    
-    <category term="buuctf" scheme="http://example.com/tags/buuctf/"/>
     
   </entry>
   
