@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-09-20T02:33:15.739Z</updated>
+  <updated>2021-09-22T15:21:00.919Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hack The &quot;Lockitall LockIT Pro&quot; System</title>
+    <link href="http://example.com/2021/09/20/Lockitall-LockIT-Pro/"/>
+    <id>http://example.com/2021/09/20/Lockitall-LockIT-Pro/</id>
+    <published>2021-09-20T09:25:46.000Z</published>
+    <updated>2021-09-22T15:21:00.919Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;When I was bored, I was reading an open source book project initiated by the “Digital Intelligence Security” Research Institute, mainly</summary>
+        
+      
+    
+    
+    
+    
+    <category term="reverse" scheme="http://example.com/tags/reverse/"/>
+    
+    <category term="iot" scheme="http://example.com/tags/iot/"/>
+    
+  </entry>
   
   <entry>
     <title>长城杯wp</title>
@@ -499,30 +524,6 @@
     <category term="pwn" scheme="http://example.com/tags/pwn/"/>
     
     <category term="VMpwn" scheme="http://example.com/tags/VMpwn/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JlenuCTF</title>
-    <link href="http://example.com/2021/05/23/JlenuCTF/"/>
-    <id>http://example.com/2021/05/23/JlenuCTF/</id>
-    <published>2021-05-23T04:24:59.000Z</published>
-    <updated>2021-05-23T05:15:50.926Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;反正交完wp了，索性水个博客吧（&lt;/p&gt;
-&lt;h2 id=&quot;HAPPYGAME&quot;&gt;&lt;a href=&quot;#HAPPYGAME&quot; class=&quot;headerlink&quot; title=&quot;HAPPYGAME&quot;&gt;&lt;/a&gt;HAPPYGAME&lt;/h2&gt;&lt;h3 id=&quot;SIMPIOT&quot;&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    
-    <category term="wp" scheme="http://example.com/tags/wp/"/>
     
   </entry>
   
