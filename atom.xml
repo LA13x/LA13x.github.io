@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-09-25T13:18:53.033Z</updated>
+  <updated>2021-09-25T13:22:16.849Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,26 +17,26 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
+    <title>DASCTF-Sept-X-浙江工业大学秋季挑战赛wp</title>
     <link href="http://example.com/2021/09/25/DASCTF-Sept-X-%E6%B5%99%E6%B1%9F%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6%E7%A7%8B%E5%AD%A3%E6%8C%91%E6%88%98%E8%B5%9B/"/>
     <id>http://example.com/2021/09/25/DASCTF-Sept-X-%E6%B5%99%E6%B1%9F%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6%E7%A7%8B%E5%AD%A3%E6%8C%91%E6%88%98%E8%B5%9B/</id>
-    <published>2021-09-25T12:43:54.647Z</published>
-    <updated>2021-09-25T13:18:53.033Z</updated>
+    <published>2021-09-25T12:43:54.000Z</published>
+    <updated>2021-09-25T13:22:16.849Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;title: DASCTF-Sept-X-浙江工业大学秋季挑战赛&lt;br&gt;date: 2021-09-25 20:43:54&lt;br&gt;tags:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;- wp
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;感谢雪宝带飞，花了一天时间终于ak了pwn&lt;/p&gt;
-&lt;h2</summary>
+    <summary type="html">&lt;p&gt;感谢雪宝带飞，花了一天时间终于ak了pwn&lt;/p&gt;
+&lt;h2 id=&quot;hehepwn&quot;&gt;&lt;a href=&quot;#hehepwn&quot; class=&quot;headerlink&quot;</summary>
         
       
     
     
     
+    
+    <category term="wp" scheme="http://example.com/tags/wp/"/>
     
   </entry>
   
