@@ -4,6 +4,27 @@
   
     
     <entry>
+      <title>Fuzzing101 Exercise 1 - Xpdf</title>
+      <link href="2023/07/07/fuzzing-lab1/"/>
+      <url>2023/07/07/fuzzing-lab1/</url>
+      
+        <content type="html"><![CDATA[<h2 id="实验流程"><a href="#实验流程" class="headerlink" title="实验流程"></a>实验流程</h2><p>编译xpdf<br><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">./configure --prefix=<span class="string">&quot;/home/lemon/Documents/AFL/fuzzing_xpdf/xpdf-3.02/install/&quot;</span></span><br><span class="line">make &amp;&amp; make install</span><br></pre></td></tr></table></figure></p><p>下载三个样本：<br><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">wget https://github.com/mozilla/pdf.js-sample-files/raw/master/helloworld.pdf</span><br><span class="line">wget http://www.africau.edu/images/default/sample.pdf</span><br><span class="line">wget https://www.melbpc.org.au/wp-content/uploads/2017/10/small-example-pdf-file.pdf</span><br></pre></td></tr></table></figure><br><img src="https://s2.loli.net/2023/07/07/HomMfyYCiWdVNUl.png" alt=""></p><p>xpdf功能测试：<br><img src="https://s2.loli.net/2023/07/07/Zh2HEp845fPlwzU.png" alt=""></p><p>下面正式开始用AFL进行fuzz，首先进行插桩编译<br>修改CC和CXX，配置编译选项和安装目录：<br><img src="https://s2.loli.net/2023/07/07/gXLp2vo9VKOt6fj.png" alt="image.png"><br>之后使用<code>make &amp;&amp; make install</code>进行编译安装</p><p>运行afl-fuzz<br><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">afl-fuzz -i $HOME/fuzzing_xpdf/pdf_examples/ -o $HOME/fuzzing_xpdf/out/ -s 123 -- $HOME/fuzzing_xpdf/install/bin/pdftotext @@ $HOME/fuzzing_xpdf/output</span><br></pre></td></tr></table></figure><br>参数解释：<br>-i：输入路径<br>-o：输出路径<br>-s：fuzzing时随机数使用的种子<br>—：目标程序<br>@@：被fuzz的程序从文件读取输入</p><p><img src="https://s2.loli.net/2023/07/07/gOWP1wLmlXiE2sc.png" alt="image.png"></p><p>运行了一会发现有三个崩溃点<br><img src="https://s2.loli.net/2023/07/07/8biwVhOpGAHylFm.png" alt="image.png"></p><p>crash文件<br><img src="https://s2.loli.net/2023/07/07/IlK3BFmVCeJ971W.png" alt="image.png"></p><p>根据实验要求解决如下问题：</p><blockquote><p>In order to complete this exercise, you need to:</p><ol><li>Reproduce the crash with the indicated file</li><li>Debug the crash to find the problem</li><li>Fix the issue</li></ol></blockquote><h2 id="重现崩溃"><a href="#重现崩溃" class="headerlink" title="重现崩溃"></a>重现崩溃</h2><p>以id:000000,sig:11,src:000742,time:643742,execs:237215,op:havoc,rep:3文件为例<br>将crash文件作为文件输入给pdftotext：<br><img src="https://s2.loli.net/2023/07/07/g4XuHDGaOh3pSiU.png" alt="image.png"><br>显示报错，经过后文的调试分析应该是无限递归导致了栈溢出</p><h2 id="动态调试"><a href="#动态调试" class="headerlink" title="动态调试"></a>动态调试</h2><p>gdb加载程序：<br><img src="https://s2.loli.net/2023/07/07/IN6EWdzrAXHbZxQ.png" alt="image.png"><br>使用run指令，运行程序<br>使用bt查看调用回溯，发现在Parser.cc中存在一个无限递归<br><img src="https://s2.loli.net/2023/07/07/IqZ4k3iVx9bc6ld.png" alt="image.png"></p><p>定位到源码出，似乎是在这个地方有个递归调用<br><img src="https://s2.loli.net/2023/07/07/3NYwa6lGWErFOh4.png" alt="image.png"></p><h2 id="漏洞修复"><a href="#漏洞修复" class="headerlink" title="漏洞修复"></a>漏洞修复</h2><p>查看4.02版的源码，这个漏洞得到了修复：[xpdf-4.02.tar.gz][<a href="https://dl.xpdfreader.com/old/xpdf-4.02.tar.gz">https://dl.xpdfreader.com/old/xpdf-4.02.tar.gz</a>]</p><p>diff一下：<br><img src="https://s2.loli.net/2023/07/07/gIsGfJtrCBnowdc.png" alt="image.png"><br>发现加了一个recursion变量，并且加了一个recursionLimit宏定义，限制了递归的最大次数<br><img src="https://s2.loli.net/2023/07/07/8X1jadIw76ZRNCx.png" alt="image.png"></p><h2 id="总结思考"><a href="#总结思考" class="headerlink" title="总结思考"></a>总结思考</h2><p>通过lab1，我学到了使用AFL fuzz程序的基本流程，以及简单的AFL工具的基本使用方法。通过AFL提供的crash信息配合gdb可以比较准确的定位到报错点，再定位到源码进行分析。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> AFL </tag>
+            
+            <tag> fuzz </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>安全拾记——读Ivan Fratric博客有感</title>
       <link href="2023/07/06/%E8%AF%BB%E5%90%8E%E6%84%9F/"/>
       <url>2023/07/06/%E8%AF%BB%E5%90%8E%E6%84%9F/</url>

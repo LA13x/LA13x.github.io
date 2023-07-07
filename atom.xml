@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-07-06T14:52:15.288Z</updated>
+  <updated>2023-07-07T10:06:45.195Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Fuzzing101 Exercise 1 - Xpdf</title>
+    <link href="http://example.com/2023/07/07/fuzzing-lab1/"/>
+    <id>http://example.com/2023/07/07/fuzzing-lab1/</id>
+    <published>2023-07-07T02:58:24.000Z</published>
+    <updated>2023-07-07T10:06:45.195Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;实验流程&quot;&gt;&lt;a href=&quot;#实验流程&quot; class=&quot;headerlink&quot; title=&quot;实验流程&quot;&gt;&lt;/a&gt;实验流程&lt;/h2&gt;&lt;p&gt;编译xpdf&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
+        
+      
+    
+    
+    
+    
+    <category term="AFL" scheme="http://example.com/tags/AFL/"/>
+    
+    <category term="fuzz" scheme="http://example.com/tags/fuzz/"/>
+    
+  </entry>
   
   <entry>
     <title>安全拾记——读Ivan Fratric博客有感</title>
@@ -497,31 +522,6 @@
     
     
     <category term="pwn" scheme="http://example.com/tags/pwn/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>bss段上格式化字符串的利用手法</title>
-    <link href="http://example.com/2021/07/19/format-bss/"/>
-    <id>http://example.com/2021/07/19/format-bss/</id>
-    <published>2021-07-19T13:35:54.000Z</published>
-    <updated>2021-07-21T09:17:21.196Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;利用手法&quot;&gt;&lt;a href=&quot;#利用手法&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    
-    <category term="pwn" scheme="http://example.com/tags/pwn/"/>
-    
-    <category term="格式化字符串" scheme="http://example.com/tags/%E6%A0%BC%E5%BC%8F%E5%8C%96%E5%AD%97%E7%AC%A6%E4%B8%B2/"/>
     
   </entry>
   
