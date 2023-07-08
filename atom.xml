@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-07-07T10:06:45.195Z</updated>
+  <updated>2023-07-08T13:54:29.237Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Fuzzing101 Exercise 2 - libexif</title>
+    <link href="http://example.com/2023/07/08/fuzzing-lab2/"/>
+    <id>http://example.com/2023/07/08/fuzzing-lab2/</id>
+    <published>2023-07-08T03:29:47.000Z</published>
+    <updated>2023-07-08T13:54:29.237Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;任务&quot;&gt;&lt;a href=&quot;#任务&quot; class=&quot;headerlink&quot; title=&quot;任务&quot;&gt;&lt;/a&gt;任务&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;In order to complete this exercise, you need</summary>
+        
+      
+    
+    
+    
+    
+    <category term="AFL" scheme="http://example.com/tags/AFL/"/>
+    
+    <category term="fuzz" scheme="http://example.com/tags/fuzz/"/>
+    
+  </entry>
   
   <entry>
     <title>Fuzzing101 Exercise 1 - Xpdf</title>
@@ -499,29 +525,6 @@
     <category term="largebin attack" scheme="http://example.com/tags/largebin-attack/"/>
     
     <category term="ptmalloc2" scheme="http://example.com/tags/ptmalloc2/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>shell脚本 + patchelf方便切换libc</title>
-    <link href="http://example.com/2021/07/23/switch-libc/"/>
-    <id>http://example.com/2021/07/23/switch-libc/</id>
-    <published>2021-07-23T15:17:29.000Z</published>
-    <updated>2021-07-23T15:28:43.018Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;更便捷切换libc&quot;&gt;&lt;a href=&quot;#更便捷切换libc&quot; class=&quot;headerlink&quot; title=&quot;更便捷切换libc&quot;&gt;&lt;/a&gt;更便捷切换libc&lt;/h2&gt;&lt;p&gt;目前自己的切换libc的方法是用&lt;code&gt;patchelf</summary>
-        
-      
-    
-    
-    
-    
-    <category term="pwn" scheme="http://example.com/tags/pwn/"/>
     
   </entry>
   
