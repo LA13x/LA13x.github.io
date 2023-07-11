@@ -4,6 +4,27 @@
   
     
     <entry>
+      <title>Fuzzing101 Exercise 3 - TCPdump</title>
+      <link href="2023/07/09/fuzzing-lab3/"/>
+      <url>2023/07/09/fuzzing-lab3/</url>
+      
+        <content type="html"><![CDATA[<h2 id="任务"><a href="#任务" class="headerlink" title="任务"></a>任务</h2><blockquote><p>In order to complete this exercise, you need to:</p><ol><li>Find an efficient way to fuzz TCPdump</li><li>Try to figure out how to enable ASan for fuzzing</li><li>Fuzz TCPdump until you have a few unique crashes</li><li>Triage the crashes to find a PoC for the vulnerability</li><li>Fix the issue</li></ol></blockquote><h2 id="准备程序"><a href="#准备程序" class="headerlink" title="准备程序"></a>准备程序</h2><p>准备TCPdump和其依赖的libpcap</p><p><img src="https://s2.loli.net/2023/07/09/w7rp6Pa5XLniEJb.png" alt=""></p><p>根据题解的说明，需要将libpcap-libpcap-1.8.0重命名为libpcap-1.8.0，要不然编译的时候会出问题。</p><p>构建与编译libpcap：</p><p><img src="https://s2.loli.net/2023/07/09/Be5fMvNTEW3uZJ6.png" alt=""></p><p><img src="https://s2.loli.net/2023/07/09/Vc8j6vi2S4b1sfL.png" alt=""></p><p>构建与编译TCPdump：</p><p><img src="https://s2.loli.net/2023/07/09/f4A3Xl1pgr9qvDy.png" alt=""></p><p><img src="https://s2.loli.net/2023/07/09/zVSfD1g76kIselF.png" alt=""></p><p>安装完成：</p><p><img src="https://s2.loli.net/2023/07/09/icXgsUIDbw2HKSy.png" alt=""></p><h2 id="样本"><a href="#样本" class="headerlink" title="样本"></a>样本</h2><p>其中，在tcpdump下的tests目录里面，有很多示例文件：</p><p><img src="https://s2.loli.net/2023/07/09/gvjFBMsl9NdxmPR.png" alt=""></p><p>图中的参数说明如下：<br>vvvv：详细输出</p><p>XX：以16进制模式显示</p><p>ee：显示帧头部的信息</p><p>nn：禁用域名解析</p><h2 id="编译程序"><a href="#编译程序" class="headerlink" title="编译程序"></a>编译程序</h2><p>这次的实验需要开启AddressSanitizer，ASan是一个内存检测器，可以用来检测和调试与内存相关的问题比如缓冲区溢出等问题。</p><p>编译libpcap：</p><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">make clean</span><br><span class="line">export LLVM_CONFIG=&quot;llvm-config-11&quot;</span><br><span class="line">./configure CC=afl-clang-lto --enable-shared=no</span><br><span class="line">AFL_USE_ASAN=1 make</span><br></pre></td></tr></table></figure><p>编译tcpdump：</p><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">rm -r ./install/</span><br><span class="line">make clean</span><br><span class="line">AFL_USE_ASAN=1 ./configure CC=afl-clang-lto --enable-shared=no --prefix=`pwd`/install/</span><br><span class="line">AFL_USE_ASAN=1 make &amp;&amp; make install</span><br></pre></td></tr></table></figure><p>编译完成后，准备进行fuzz。</p><h2 id="开始fuzz"><a href="#开始fuzz" class="headerlink" title="开始fuzz"></a>开始fuzz</h2><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">afl-fuzz -m none -i ./tests/ -o ../fuzz-out/ -s 123 -- ./install/sbin/tcpdump -vvvvXX -ee -nn -r @@</span><br></pre></td></tr></table></figure><p>其中-m选项可以指定内存限制模式，指定为none表示不限制其使用的内存量。</p><p>fuzz了两天，才出了一个crash，不知道是不是脸太黑了，还是有什么没有注意到的点。。。</p><p><img src="https://s2.loli.net/2023/07/11/zRdOtY82phwrvPc.png" alt=""></p><h2 id="验证crash"><a href="#验证crash" class="headerlink" title="验证crash"></a>验证crash</h2><p><img src="https://s2.loli.net/2023/07/11/dKbI2xWpLDfckoq.png" alt=""></p><p>ASan提示堆溢出，给出了具体的相关信息。</p><h2 id="修复"><a href="#修复" class="headerlink" title="修复"></a>修复</h2><p>可以发现导致漏洞发生的strcmp被做了处理</p><p><img src="https://s2.loli.net/2023/07/11/5KQmwqu2UCgDYni.png" alt=""></p><p>修复后之前的crash正常被执行：</p><p><img src="https://s2.loli.net/2023/07/11/sfqMQ3Z2KHbvIBk.png" alt=""></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> AFL </tag>
+            
+            <tag> fuzz </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Fuzzing101 Exercise 2 - libexif</title>
       <link href="2023/07/08/fuzzing-lab2/"/>
       <url>2023/07/08/fuzzing-lab2/</url>
