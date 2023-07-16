@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-07-14T15:33:07.670Z</updated>
+  <updated>2023-07-16T16:01:59.720Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Java-Ser-CC1</title>
+    <link href="http://example.com/2023/07/16/Java-Ser-CC1/"/>
+    <id>http://example.com/2023/07/16/Java-Ser-CC1/</id>
+    <published>2023-07-16T03:24:05.000Z</published>
+    <updated>2023-07-16T16:01:59.720Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;链条分析&quot;&gt;&lt;a href=&quot;#链条分析&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="web" scheme="http://example.com/tags/web/"/>
+    
+    <category term="Java" scheme="http://example.com/tags/Java/"/>
+    
+  </entry>
   
   <entry>
     <title>URLDNS链分析</title>
@@ -497,32 +522,6 @@
     
     
     <category term="pwn环境搭建" scheme="http://example.com/tags/pwn%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>BUUCTF第一周</title>
-    <link href="http://example.com/2021/07/28/BUUCTF/"/>
-    <id>http://example.com/2021/07/28/BUUCTF/</id>
-    <published>2021-07-28T01:21:02.000Z</published>
-    <updated>2021-08-01T14:55:05.169Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;从一分题开始向后推&lt;/p&gt;
-&lt;h2 id=&quot;cmcc-pwnme2&quot;&gt;&lt;a href=&quot;#cmcc-pwnme2&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    
-    <category term="pwn" scheme="http://example.com/tags/pwn/"/>
-    
-    <category term="buuctf" scheme="http://example.com/tags/buuctf/"/>
     
   </entry>
   
