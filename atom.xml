@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-07-16T16:01:59.720Z</updated>
+  <updated>2023-09-11T05:48:36.921Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PatriotCTF 2023 write up</title>
+    <link href="http://example.com/2023/09/11/PCTF-wp/"/>
+    <id>http://example.com/2023/09/11/PCTF-wp/</id>
+    <published>2023-09-11T05:47:36.000Z</published>
+    <updated>2023-09-11T05:48:36.921Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;周六末比较无聊，跟舍友和实验室的同学找了个老外的比赛打打，把自己做出来的题写个wp然后骂骂出题人。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;总结：pwn是好活，但是👴🏻不会；取证是好活，但是👴🏻也不会；逆向是好活，但是👴🏻不会；开源情报是好活，但是👴🏻不会；web是烂</summary>
+        
+      
+    
+    
+    
+    
+    <category term="pwn" scheme="http://example.com/tags/pwn/"/>
+    
+    <category term="web" scheme="http://example.com/tags/web/"/>
+    
+    <category term="misc" scheme="http://example.com/tags/misc/"/>
+    
+    <category term="write up" scheme="http://example.com/tags/write-up/"/>
+    
+  </entry>
   
   <entry>
     <title>Java-Ser-CC1</title>
@@ -498,30 +528,6 @@
     <category term="pwn" scheme="http://example.com/tags/pwn/"/>
     
     <category term="buuctf" scheme="http://example.com/tags/buuctf/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>pwn环境搭建</title>
-    <link href="http://example.com/2021/08/01/pwn%E7%8E%AF%E5%A2%83/"/>
-    <id>http://example.com/2021/08/01/pwn%E7%8E%AF%E5%A2%83/</id>
-    <published>2021-08-01T13:46:18.000Z</published>
-    <updated>2021-08-02T08:12:01.228Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;由于误操作把镜像扬了&lt;br&gt;md&lt;br&gt;重新搭建环境&lt;/p&gt;
-&lt;h2 id=&quot;docker镜像下载&quot;&gt;&lt;a href=&quot;#docker镜像下载&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    
-    <category term="pwn环境搭建" scheme="http://example.com/tags/pwn%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
     
   </entry>
   
