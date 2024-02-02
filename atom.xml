@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-01-31T15:16:43.541Z</updated>
+  <updated>2024-02-02T14:24:25.173Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,19 +17,44 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Metasploit恶意样本分析与C2配置信息提取</title>
+    <title>假期打靶第一弹-Manager</title>
+    <link href="http://example.com/2024/02/02/hackthebox-machine/"/>
+    <id>http://example.com/2024/02/02/hackthebox-machine/</id>
+    <published>2024-02-02T01:36:46.000Z</published>
+    <updated>2024-02-02T14:24:25.173Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;HTB，启动！&lt;/p&gt;
+&lt;p&gt;靶机地址：&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="web" scheme="http://example.com/tags/web/"/>
+    
+    <category term="渗透测试" scheme="http://example.com/tags/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>msf-shikata_ga_nai编码分析与C2配置信息提取</title>
     <link href="http://example.com/2024/01/24/MSF-C2/"/>
     <id>http://example.com/2024/01/24/MSF-C2/</id>
     <published>2024-01-24T10:00:51.000Z</published>
-    <updated>2024-01-31T15:16:43.541Z</updated>
+    <updated>2024-02-02T01:23:56.483Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;（未完稿）&lt;/p&gt;
-&lt;h2 id=&quot;shikata-ga-nai&quot;&gt;&lt;a href=&quot;#shikata-ga-nai&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;shikata-ga-nai编码&quot;&gt;&lt;a href=&quot;#shikata-ga-nai编码&quot; class=&quot;headerlink&quot; title=&quot;shikata_ga_nai编码&quot;&gt;&lt;/a&gt;shikata_ga_nai编码&lt;/h2&gt;&lt;h3</summary>
         
       
     
@@ -511,33 +536,6 @@
     <category term="os" scheme="http://example.com/tags/os/"/>
     
     <category term="lab" scheme="http://example.com/tags/lab/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>kernel-pwn基础知识学习</title>
-    <link href="http://example.com/2021/08/10/kernal-pwn%E5%AD%A6%E4%B9%A0%E4%B9%8B%E8%B7%AF/"/>
-    <id>http://example.com/2021/08/10/kernal-pwn%E5%AD%A6%E4%B9%A0%E4%B9%8B%E8%B7%AF/</id>
-    <published>2021-08-10T13:42:31.000Z</published>
-    <updated>2021-08-12T14:06:23.391Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;原文：&lt;a href=&quot;https://www.anquanke.com/post/id/201043&quot;&gt;https://www.anquanke.com/post/id/201043&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;照着原文手打了一遍，印象加深get&lt;/p&gt;
-&lt;h2</summary>
-        
-      
-    
-    
-    
-    
-    <category term="pwn" scheme="http://example.com/tags/pwn/"/>
-    
-    <category term="kernel" scheme="http://example.com/tags/kernel/"/>
     
   </entry>
   
