@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-02-02T14:24:25.173Z</updated>
+  <updated>2024-02-03T12:23:21.731Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://example.com/2024/02/02/hackthebox-machine/"/>
     <id>http://example.com/2024/02/02/hackthebox-machine/</id>
     <published>2024-02-02T01:36:46.000Z</published>
-    <updated>2024-02-02T14:24:25.173Z</updated>
+    <updated>2024-02-03T12:23:21.731Z</updated>
     
     
       
@@ -29,7 +29,8 @@
         
         
     <summary type="html">&lt;p&gt;HTB，启动！&lt;/p&gt;
-&lt;p&gt;靶机地址：&lt;a</summary>
+&lt;p&gt;靶机地址：&lt;a href=&quot;https://app.hackthebox.com/machines/Manager&quot;&gt;https://app.hackthebox.com/machines/Manager&lt;/a&gt;&lt;/p&gt;
+&lt;h2</summary>
         
       
     
