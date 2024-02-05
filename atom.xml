@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-02-04T13:11:20.582Z</updated>
+  <updated>2024-02-05T14:52:06.339Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,37 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>假期打靶第二弹-CozyHosting</title>
+    <link href="http://example.com/2024/02/05/hackthebox-machine-CozyHosting/"/>
+    <id>http://example.com/2024/02/05/hackthebox-machine-CozyHosting/</id>
+    <published>2024-02-05T04:16:11.000Z</published>
+    <updated>2024-02-05T14:52:06.339Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;HTB，启动！&lt;/p&gt;
+&lt;p&gt;靶机地址：&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="web" scheme="http://example.com/tags/web/"/>
+    
+    <category term="渗透测试" scheme="http://example.com/tags/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
     <title>假期打靶第一弹-Manager</title>
-    <link href="http://example.com/2024/02/02/hackthebox-machine/"/>
-    <id>http://example.com/2024/02/02/hackthebox-machine/</id>
+    <link href="http://example.com/2024/02/02/hackthebox-machine-manager/"/>
+    <id>http://example.com/2024/02/02/hackthebox-machine-manager/</id>
     <published>2024-02-02T01:36:46.000Z</published>
-    <updated>2024-02-04T13:11:20.582Z</updated>
+    <updated>2024-02-05T04:17:40.987Z</updated>
     
     
       
@@ -37,9 +63,11 @@
     
     
     
-    <category term="web" scheme="http://example.com/tags/web/"/>
-    
     <category term="渗透测试" scheme="http://example.com/tags/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/"/>
+    
+    <category term="域渗透" scheme="http://example.com/tags/%E5%9F%9F%E6%B8%97%E9%80%8F/"/>
+    
+    <category term="ADCS" scheme="http://example.com/tags/ADCS/"/>
     
   </entry>
   
@@ -511,32 +539,6 @@
     <category term="reverse" scheme="http://example.com/tags/reverse/"/>
     
     <category term="iot" scheme="http://example.com/tags/iot/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>HIT-OSlab3</title>
-    <link href="http://example.com/2021/08/22/HIT-OSlab3/"/>
-    <id>http://example.com/2021/08/22/HIT-OSlab3/</id>
-    <published>2021-08-22T12:56:48.000Z</published>
-    <updated>2021-08-22T13:20:56.737Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;在借助linux0.11内核代码剖析，别人的实验代码，以及操作系统原理实现与实践下完成QAQ&lt;/p&gt;
-&lt;h2 id=&quot;process-c&quot;&gt;&lt;a href=&quot;#process-c&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    
-    <category term="os" scheme="http://example.com/tags/os/"/>
-    
-    <category term="lab" scheme="http://example.com/tags/lab/"/>
     
   </entry>
   
