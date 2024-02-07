@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-02-06T12:36:02.676Z</updated>
+  <updated>2024-02-07T12:12:02.244Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>假期打靶第四弹-Devvortex</title>
+    <link href="http://example.com/2024/02/07/hackthebox-machine-Devvortex/"/>
+    <id>http://example.com/2024/02/07/hackthebox-machine-Devvortex/</id>
+    <published>2024-02-07T02:06:16.000Z</published>
+    <updated>2024-02-07T12:12:02.244Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;HTB，启动！&lt;/p&gt;
+&lt;p&gt;靶机地址：&lt;a href=&quot;https://app.hackthebox.com/machines/Devvortex&quot;&gt;https://app.hackthebox.com/machines/Devvortex&lt;/a&gt;&lt;/p&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    
+    <category term="渗透测试" scheme="http://example.com/tags/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/"/>
+    
+    <category term="Linux提权" scheme="http://example.com/tags/Linux%E6%8F%90%E6%9D%83/"/>
+    
+  </entry>
   
   <entry>
     <title>假期打靶第三弹-Analytics</title>
@@ -513,32 +540,6 @@
     <category term="reverse" scheme="http://example.com/tags/reverse/"/>
     
     <category term="angr" scheme="http://example.com/tags/angr/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>强网杯2020决赛 Cisco RV110W路由器复现</title>
-    <link href="http://example.com/2021/08/31/Real-World-Cisco-RV110W/"/>
-    <id>http://example.com/2021/08/31/Real-World-Cisco-RV110W/</id>
-    <published>2021-08-31T14:31:32.000Z</published>
-    <updated>2021-09-01T13:19:26.160Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;mips-基础知识&quot;&gt;&lt;a href=&quot;#mips-基础知识&quot; class=&quot;headerlink&quot; title=&quot;mips 基础知识&quot;&gt;&lt;/a&gt;mips 基础知识&lt;/h2&gt;&lt;p&gt;再次感谢轩哥和轩哥媳妇送的cheatsheet&lt;/p&gt;
-&lt;p&gt;&lt;img</summary>
-        
-      
-    
-    
-    
-    
-    <category term="iot" scheme="http://example.com/tags/iot/"/>
-    
-    <category term="real world" scheme="http://example.com/tags/real-world/"/>
     
   </entry>
   
