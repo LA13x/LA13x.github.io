@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-02-07T12:12:02.244Z</updated>
+  <updated>2024-02-11T04:12:21.330Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>kernel-pwn入门学习</title>
+    <link href="http://example.com/2024/02/11/kernal-pwn%E5%AD%A6%E4%B9%A0/"/>
+    <id>http://example.com/2024/02/11/kernal-pwn%E5%AD%A6%E4%B9%A0/</id>
+    <published>2024-02-11T04:05:51.000Z</published>
+    <updated>2024-02-11T04:12:21.330Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;基础知识&quot;&gt;&lt;a href=&quot;#基础知识&quot; class=&quot;headerlink&quot; title=&quot;基础知识&quot;&gt;&lt;/a&gt;基础知识&lt;/h2&gt;&lt;h3 id=&quot;Ring-Model&quot;&gt;&lt;a href=&quot;#Ring-Model&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="kernel pwn" scheme="http://example.com/tags/kernel-pwn/"/>
+    
+  </entry>
   
   <entry>
     <title>假期打靶第四弹-Devvortex</title>
@@ -515,31 +538,6 @@
     <category term="UAF" scheme="http://example.com/tags/UAF/"/>
     
     <category term="sandbox" scheme="http://example.com/tags/sandbox/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>通过angr-ctf学习angr符号执行</title>
-    <link href="http://example.com/2021/09/10/angr-ctf/"/>
-    <id>http://example.com/2021/09/10/angr-ctf/</id>
-    <published>2021-09-10T01:23:32.000Z</published>
-    <updated>2021-09-14T07:35:14.035Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;angr_ctf: &lt;a href=&quot;https://github.com/jakespringer/angr_ctf&quot;&gt;https://github.com/jakespringer/angr_ctf&lt;/a&gt;&lt;br&gt;angr: &lt;a</summary>
-        
-      
-    
-    
-    
-    
-    <category term="reverse" scheme="http://example.com/tags/reverse/"/>
-    
-    <category term="angr" scheme="http://example.com/tags/angr/"/>
     
   </entry>
   
