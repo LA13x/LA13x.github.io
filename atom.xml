@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-02-11T04:12:21.330Z</updated>
+  <updated>2024-02-12T14:09:52.419Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CVE-2017-10271：Weblogic &lt; 10.3.6 反序列化分析</title>
+    <link href="http://example.com/2024/02/12/CVE-2017-10271/"/>
+    <id>http://example.com/2024/02/12/CVE-2017-10271/</id>
+    <published>2024-02-12T11:41:15.000Z</published>
+    <updated>2024-02-12T14:09:52.419Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;环境搭建&quot;&gt;&lt;a href=&quot;#环境搭建&quot; class=&quot;headerlink&quot; title=&quot;环境搭建&quot;&gt;&lt;/a&gt;环境搭建&lt;/h2&gt;&lt;p&gt;使用vulhub可以很方便的搭建环境：&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Web安全" scheme="http://example.com/tags/Web%E5%AE%89%E5%85%A8/"/>
+    
+    <category term="Java安全" scheme="http://example.com/tags/Java%E5%AE%89%E5%85%A8/"/>
+    
+  </entry>
   
   <entry>
     <title>kernel-pwn入门学习</title>
@@ -510,34 +535,6 @@
     <category term="reverse" scheme="http://example.com/tags/reverse/"/>
     
     <category term="iot" scheme="http://example.com/tags/iot/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>长城杯wp</title>
-    <link href="http://example.com/2021/09/19/%E9%95%BF%E5%9F%8E%E6%9D%AF/"/>
-    <id>http://example.com/2021/09/19/%E9%95%BF%E5%9F%8E%E6%9D%AF/</id>
-    <published>2021-09-19T10:06:27.000Z</published>
-    <updated>2021-09-20T02:33:15.739Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2021/09/20/eIGMuxfXNhL9qcv.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;h2 id=&quot;签到&quot;&gt;&lt;a href=&quot;#签到&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    
-    <category term="pwn" scheme="http://example.com/tags/pwn/"/>
-    
-    <category term="UAF" scheme="http://example.com/tags/UAF/"/>
-    
-    <category term="sandbox" scheme="http://example.com/tags/sandbox/"/>
     
   </entry>
   
