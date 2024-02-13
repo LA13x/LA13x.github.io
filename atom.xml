@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-02-12T14:09:52.419Z</updated>
+  <updated>2024-02-13T15:19:12.687Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hackthebox challenge刷题系列1</title>
+    <link href="http://example.com/2024/02/13/hackthebox-challenge-Crypto1/"/>
+    <id>http://example.com/2024/02/13/hackthebox-challenge-Crypto1/</id>
+    <published>2024-02-13T01:41:31.000Z</published>
+    <updated>2024-02-13T15:19:12.687Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;BabyEncryption&quot;&gt;&lt;a href=&quot;#BabyEncryption&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="密码学" scheme="http://example.com/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/"/>
+    
+  </entry>
   
   <entry>
     <title>CVE-2017-10271：Weblogic &lt; 10.3.6 反序列化分析</title>
@@ -510,31 +533,6 @@
     
     
     <category term="wp" scheme="http://example.com/tags/wp/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hack The &quot;Lockitall LockIT Pro&quot; System</title>
-    <link href="http://example.com/2021/09/20/Lockitall-LockIT-Pro/"/>
-    <id>http://example.com/2021/09/20/Lockitall-LockIT-Pro/</id>
-    <published>2021-09-20T09:25:46.000Z</published>
-    <updated>2021-09-22T15:21:00.919Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;When I was bored, I was reading an open source book project initiated by the “Digital Intelligence Security” Research Institute, mainly</summary>
-        
-      
-    
-    
-    
-    
-    <category term="reverse" scheme="http://example.com/tags/reverse/"/>
-    
-    <category term="iot" scheme="http://example.com/tags/iot/"/>
     
   </entry>
   
