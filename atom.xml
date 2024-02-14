@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-02-13T15:19:12.687Z</updated>
+  <updated>2024-02-14T12:58:28.983Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>hackthebox challenge刷题系列2</title>
+    <link href="http://example.com/2024/02/14/hackthebox-challenge-Crypto2/"/>
+    <id>http://example.com/2024/02/14/hackthebox-challenge-Crypto2/</id>
+    <published>2024-02-14T01:30:01.000Z</published>
+    <updated>2024-02-14T12:58:28.983Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;xorxorxor&quot;&gt;&lt;a href=&quot;#xorxorxor&quot; class=&quot;headerlink&quot; title=&quot;xorxorxor&quot;&gt;&lt;/a&gt;xorxorxor&lt;/h2&gt;&lt;p&gt;题目描述：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Who needs AES</summary>
+        
+      
+    
+    
+    
+    
+    <category term="密码学" scheme="http://example.com/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/"/>
+    
+    <category term="ctf" scheme="http://example.com/tags/ctf/"/>
+    
+  </entry>
+  
+  <entry>
     <title>hackthebox challenge刷题系列1</title>
     <link href="http://example.com/2024/02/13/hackthebox-challenge-Crypto1/"/>
     <id>http://example.com/2024/02/13/hackthebox-challenge-Crypto1/</id>
     <published>2024-02-13T01:41:31.000Z</published>
-    <updated>2024-02-13T15:19:12.687Z</updated>
+    <updated>2024-02-14T01:30:48.734Z</updated>
     
     
       
@@ -36,6 +63,8 @@
     
     
     <category term="密码学" scheme="http://example.com/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/"/>
+    
+    <category term="ctf" scheme="http://example.com/tags/ctf/"/>
     
   </entry>
   
@@ -503,29 +532,6 @@
         
     <summary type="html">&lt;p&gt;感谢雪宝带飞，花了一天时间终于ak了pwn&lt;/p&gt;
 &lt;h2 id=&quot;hehepwn&quot;&gt;&lt;a href=&quot;#hehepwn&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    
-    <category term="wp" scheme="http://example.com/tags/wp/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>天翼杯</title>
-    <link href="http://example.com/2021/09/23/%E5%A4%A9%E7%BF%BC%E6%9D%AF/"/>
-    <id>http://example.com/2021/09/23/%E5%A4%A9%E7%BF%BC%E6%9D%AF/</id>
-    <published>2021-09-23T14:25:03.000Z</published>
-    <updated>2021-09-23T14:28:12.020Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;chaos&quot;&gt;&lt;a href=&quot;#chaos&quot; class=&quot;headerlink&quot;</summary>
         
       
     
