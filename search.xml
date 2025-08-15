@@ -4,25 +4,6 @@
   
     
     <entry>
-      <title>堆IO利用——烂活中的烂活</title>
-      <link href="2025/08/15/last-heap/"/>
-      <url>2025/08/15/last-heap/</url>
-      
-        <content type="html"><![CDATA[<blockquote><p>C，T，F，若谈论工整和优美，大概只有具有对称结构的’T’能论得上了。但是若把这三个字符组合在一起，倒具有一种和谐的美，CTF。——某师傅曰。</p><p>我曰：CTF，你就是个**。</p></blockquote><p>没办法，作为一名优秀的传统PWN手，最起码各种ROP要玩的6，各种堆利用要玩的6，各种house手到拈来，给他一张草稿纸，他能手写出各个版本的glibc malloc和free的源码。所以，很显然，👴🏻不是一个合格的PWN手，现在比赛的签到都是IO利用，导致👴🏻比赛连签到都签不了了，于是，趁上班摸鱼的时间写个备忘录总结IO板子，以后直接来这里抄exp。</p><p>原理详见大佬：<a href="https://bbs.kanxue.com/thread-276106.htm">https://bbs.kanxue.com/thread-276106.htm</a></p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> hidden </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>新春赛的一道有意思的逆向</title>
       <link href="2025/01/29/%E8%A2%AB%E6%96%B0%E6%98%A5%E8%B5%9B%E7%9A%84%E4%B8%80%E9%81%93%E9%80%86%E5%90%91%E5%88%9B%E6%AD%BB%E4%BA%86/"/>
       <url>2025/01/29/%E8%A2%AB%E6%96%B0%E6%98%A5%E8%B5%9B%E7%9A%84%E4%B8%80%E9%81%93%E9%80%86%E5%90%91%E5%88%9B%E6%AD%BB%E4%BA%86/</url>
